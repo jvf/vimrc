@@ -16,7 +16,7 @@ Recursively clone the repository to incude submodules (plugins):
 jvf@mb:~/repos/ $ git clone --recursive https://github.com/jvf/vimrc.git
 ```
 
-Symlink the repo to ~/.vim:
+Symlink the repo to `~/.vim`:
 
 ```
 jvf@mb:~/repos/vimrc/ $ ln -s $PWD/ ~/.vim
