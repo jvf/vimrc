@@ -1,3 +1,6 @@
 [submodule "pack/jvf/start/vim-elixir"]
 	path = pack/jvf/start/vim-elixir
 	url = git@github.com:elixir-editors/vim-elixir.git
+[submodule "pack/jvf/start/Smyck-Color-Scheme"]
+	path = pack/jvf/start/Smyck-Color-Scheme
+	url = git@github.com:jvf/Smyck-Color-Scheme.git
