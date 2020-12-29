@@ -6,7 +6,7 @@ syntax on               " Enable syntax highlighting
 filetype indent on      " Enable indenting for files
 set autoindent          " Enable auto indenting
 set number              " Enable line numbers
-colorscheme desert      " Set colorscheme
+colorscheme smyck       " Set colorscheme
 set nobackup            " Disable backup files
 set laststatus=2        " show status line
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
