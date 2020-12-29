@@ -4,3 +4,6 @@
 [submodule "pack/jvf/start/Smyck-Color-Scheme"]
 	path = pack/jvf/start/Smyck-Color-Scheme
 	url = git@github.com:jvf/Smyck-Color-Scheme.git
+[submodule "pack/jvf/start/vim-mix-format"]
+	path = pack/jvf/start/vim-mix-format
+	url = git@github.com:mhinz/vim-mix-format.git
