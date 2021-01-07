@@ -30,3 +30,7 @@ nnoremap <C-L> <C-W><C-L>
 set hidden              " allow sending unsafed buffers to the background
 map <C-J> :bnext<CR>    " ctrl-j to go to next buffer
 map <C-K> :bprev<CR>    " ctrl-k to go to prev buffer
+
+" configure cursorline
+set cursorline
+highlight CursorLineNr cterm=none " disable unterlining of the currently active line number (we use a different color instead with smyck)
