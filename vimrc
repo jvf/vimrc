@@ -14,6 +14,7 @@ set wildmenu            " Display command line's tab complete options as a menu
 set mouse=a             " Enable mouse for scrolling and resizing
 set scrolloff=3         " number of screen lines to keep above and below the cursor
 set sidescrolloff=5     " number of screen columns to keep to the left and right of the cursor
+set backspace=indent,eol,start " allow deleting indentation, eol and over the start of the insertion
 
 " configure cursorline
 set cursorline
