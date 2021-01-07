@@ -12,6 +12,8 @@ set laststatus=2        " show status line
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 set wildmenu            " Display command line's tab complete options as a menu
 set mouse=a             " Enable mouse for scrolling and resizing
+set scrolloff=3         " number of screen lines to keep above and below the cursor
+set sidescrolloff=5     " number of screen columns to keep to the left and right of the cursor
 
 " configure cursorline
 set cursorline
