@@ -11,6 +11,7 @@ set nobackup            " Disable backup files
 set laststatus=2        " show status line
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
 set wildmenu            " Display command line's tab complete options as a menu
+set mouse=a             " Enable mouse for scrolling and resizing
 
 " configure cursorline
 set cursorline
