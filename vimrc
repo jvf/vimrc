@@ -1,3 +1,8 @@
+" ------------------------------
+" GENERAL CONFIGURATION OPTIONS
+" ------------------------------
+
+
 set nocompatible        " Use Vim settings, rather than Vi settings
 set softtabstop=2       " Indent by 2 spaces when hitting tab
 set shiftwidth=4        " Indent by 4 spaces when auto-indenting
@@ -15,6 +20,10 @@ set mouse=a             " Enable mouse for scrolling and resizing
 set scrolloff=3         " number of screen lines to keep above and below the cursor
 set sidescrolloff=5     " number of screen columns to keep to the left and right of the cursor
 set backspace=indent,eol,start " allow deleting indentation, eol and over the start of the insertion
+
+" ------------------------------
+" USER INTERFACE OPTIONS
+" ------------------------------
 
 " configure cursorline
 set cursorline
@@ -35,8 +44,6 @@ map <C-K> :bprev<CR>    " ctrl-k to go to prev buffer
 set cursorline
 highlight CursorLineNr cterm=none " disable unterlining of the currently active line number (we use a different color instead with smyck)
 
-" remap ctrl-h,j,k,l for faster window movement
-nnoremap <C-H> <C-W><C-H>
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
+" configure searching
+set incsearch  " Find the next match as we type the search. 
+set hlsearch   " Highlight searches by default.
