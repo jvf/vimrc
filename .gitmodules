@@ -7,3 +7,6 @@
 [submodule "pack/jvf/start/vim-mix-format"]
 	path = pack/jvf/start/vim-mix-format
 	url = git@github.com:mhinz/vim-mix-format.git
+[submodule "pack/jvf/start/surround"]
+	path = pack/jvf/start/surround
+	url = https://tpope.io/vim/surround.git
