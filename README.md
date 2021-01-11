@@ -33,3 +33,14 @@ jvf@mb:~/repos/vimrc/ $ git submodule add git@github.com:mhinz/vim-mix-format.gi
 jvf@mb:~/repos/vimrc/ $ git add .gitmodules pack
 jvf@mb:~/repos/vimrc/ $ git commit -m "Add plugin vim-mix-format"
 ```
+
+### Helptags for Plugins
+
+```
+:helptags path/to/doc/dir
+```
+For example:
+
+```
+:helptags pack/jvf/start/surround/doc
+```
