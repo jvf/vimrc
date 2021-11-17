@@ -51,3 +51,7 @@ set hlsearch   " Highlight searches by default.
 
 " configure textwidth for wrapping
 set textwidth=110
+
+" Move visual block
+vnoremap J :m '>+1<CR>gv
+vnoremap K :m '<-2<CR>gv
