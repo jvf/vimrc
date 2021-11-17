@@ -26,6 +26,8 @@ jvf@mb:~/repos/vimrc/ $ ln -s $PWD/ ~/.vim
 
 Plugins are added submodules to `pack/jvf/start/`, using vim native packages. This requires Vim 8. See `:h packages` for more information.
 
+The directory name should match the actual plugin name. The plugin in name is usally the name of the `.vim` file in the `plugin` directory.
+
 ### Add a plugin
 
 ```
@@ -44,3 +46,7 @@ For example:
 ```
 :helptags pack/jvf/start/surround/doc
 ```
+
+## TODOs
+
+* [ ] change plugin directory names to match actual plugin names
