@@ -48,3 +48,6 @@ highlight CursorLineNr cterm=none " disable unterlining of the currently active 
 " configure searching
 set incsearch  " Find the next match as we type the search.
 set hlsearch   " Highlight searches by default.
+
+" configure textwidth for wrapping
+set textwidth=110
