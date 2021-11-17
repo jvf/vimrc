@@ -20,6 +20,7 @@ set mouse=a             " Enable mouse for scrolling and resizing
 set scrolloff=3         " number of screen lines to keep above and below the cursor
 set sidescrolloff=5     " number of screen columns to keep to the left and right of the cursor
 set backspace=indent,eol,start " allow deleting indentation, eol and over the start of the insertion
+set history=10000      " set history to 10,000 (maximum value)
 
 " ------------------------------
 " USER INTERFACE OPTIONS
