@@ -2,7 +2,6 @@
 " GENERAL CONFIGURATION OPTIONS
 " ------------------------------
 
-
 set nocompatible        " Use Vim settings, rather than Vi settings
 set softtabstop=2       " Indent by 2 spaces when hitting tab
 set shiftwidth=4        " Indent by 4 spaces when auto-indenting
@@ -45,5 +44,5 @@ set cursorline
 highlight CursorLineNr cterm=none " disable unterlining of the currently active line number (we use a different color instead with smyck)
 
 " configure searching
-set incsearch  " Find the next match as we type the search. 
+set incsearch  " Find the next match as we type the search.
 set hlsearch   " Highlight searches by default.
