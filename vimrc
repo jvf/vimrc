@@ -6,6 +6,7 @@ set nocompatible        " Use Vim settings, rather than Vi settings
 set softtabstop=2       " Indent by 2 spaces when hitting tab
 set shiftwidth=4        " Indent by 4 spaces when auto-indenting
 set tabstop=4           " Show existing tab with 4 spaces width
+set expandtab           " Expand TABs to spaces
 syntax on               " Enable syntax highlighting
 filetype plugin indent on " Enable indenting for files
 set autoindent          " Enable auto indenting
