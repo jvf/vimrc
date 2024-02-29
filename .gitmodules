@@ -10,3 +10,6 @@
 [submodule "pack/jvf/start/surround"]
 	path = pack/jvf/start/surround
 	url = https://tpope.io/vim/surround.git
+[submodule "pack/jvf/start/gruvbox"]
+	path = pack/jvf/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
